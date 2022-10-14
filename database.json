@@ -1,204 +1,216 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "Deven Bogisich",
-            "email": "Rowena.Boyle62@gmail.com",
-            "isStaff": false
-        },
-        {
-            "id": 2,
-            "name": "Lauretta Kuhn",
-            "email": "Maritza_Predovic@gmail.com",
-            "isStaff": true
-        },
-        {
-            "id": 3,
-            "name": "Janet Buckridge",
-            "email": "Lora_Reichert38@gmail.com",
-            "isStaff": true
-        },
-        {
-            "id": 4,
-            "name": "Gerard Hegmann",
-            "email": "Nikko4@yahoo.com",
-            "isStaff": false
-        },
-        {
-            "id": 5,
-            "name": "Herbert Schmeler",
-            "email": "Blanche_Carroll16@hotmail.com",
-            "isStaff": false
-        },
-        {
-            "id": 6,
-            "name": "Jaleel Powlowski",
-            "email": "Walter48@yahoo.com",
-            "isStaff": true
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "userId": 1,
-            "loyaltyNumber": 46096
-        },
-        {
-            "id": 2,
-            "userId": 4,
-            "loyaltyNumber": 87335
-        },
-        {
-            "id": 3,
-            "userId": 5,
-            "loyaltyNumber": 78662
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "userId": 2,
-            "startDate": "Tue Jul 05 2022 16:09:20 GMT-0500 (Central Daylight Time)",
-            "payRate": 16.00,
-            "storeId": 2
-        },
-        {
-            "id": 2,
-            "userId": 3,
-            "startDate": "Sun Dec 12 2021 19:47:34 GMT-0600 (Central Standard Time)",
-            "payRate": 14.50,
-            "storeId": 1
-        },
-        {
-            "id": 3,
-            "userId": 6,
-            "startDate": "Sun Nov 07 2021 21:30:49 GMT-0600 (Central Standard Time)",
-            "payRate": 14.80,
-            "storeId": 2
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "address": "73103 Mackenzie Forest, Pagacchester, TN 80320",
-            "squareFootage": 788
-        },
-        {
-            "id": 2,
-            "address": "895 Samir Knolls, New Jesus, IN 60704",
-            "squareFootage": 487
-        }
-    ],
-    "products": [
-        {
-            "id": 1,
-            "name": "Silly Sausages",
-            "typeId": 2,
-            "price": 0.99
-        },
-        {
-            "id": 2,
-            "name": "Nerds",
-            "typeId": 3,
-            "price": 0.89
-        },
-        {
-            "id": 3,
-            "name": "Whoppers",
-            "typeId": 1,
-            "price": 1.49
-        },
-        {
-            "id": 4,
-            "name": "Twizzlers",
-            "typeId": 2,
-            "price": 2.19
-        },
-        {
-            "id": 5,
-            "name": "Hershey's Kisses",
-            "typeId": 1,
-            "price": 2.50
-        },
-        {
-            "id": 6,
-            "name": "Jawbreakers",
-            "typeId": 3,
-            "price": 1.19
-        },
-        {
-            "id": 7,
-            "name": "Bubblelicious",
-            "typeId": 4,
-            "price": 1.99
-        }
-    ],
-    "productTypes": [
-        {
-            "id": 1,
-            "name": "Chocolate"
-        },
-        {
-            "id": 2,
-            "name": "Gummies"
-        },
-        {
-            "id": 3,
-            "name": "Hard Candies"
-        },
-        {
-            "id": 4,
-            "name": "Bubble Gum"
-        }
-    ],
-    "purchases": [
-        {
-            "id": 1,
-            "customerId": 1,
-            "locationProductId": 1,
-            "quantity": 3
-        }
-    ],
-    "locationProducts": [
-        {
-            "id": 1,
-            "locationId": 1,
-            "productId": 1
-        },
-        {
-            "id": 2,
-            "locationId": 1,
-            "productId": 3
-        },
-        {
-            "id": 3,
-            "locationId": 1,
-            "productId": 4
-        },
-        {
-            "id": 4,
-            "locationId": 1,
-            "productId": 7
-        },
-        {
-            "id": 5,
-            "locationId": 2,
-            "productId": 2
-        },
-        {
-            "id": 6,
-            "locationId": 2,
-            "productId": 3
-        },
-        {
-            "id": 7,
-            "locationId": 2,
-            "productId": 5
-        },
-        {
-            "id": 8,
-            "locationId": 2,
-            "productId": 6
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Deven Bogisich",
+      "email": "Rowena.Boyle62@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 2,
+      "name": "Lauretta Kuhn",
+      "email": "Maritza_Predovic@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 3,
+      "name": "Janet Buckridge",
+      "email": "Lora_Reichert38@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 4,
+      "name": "Gerard Hegmann",
+      "email": "Nikko4@yahoo.com",
+      "isStaff": false
+    },
+    {
+      "id": 5,
+      "name": "Herbert Schmeler",
+      "email": "Blanche_Carroll16@hotmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 6,
+      "name": "Jaleel Powlowski",
+      "email": "Walter48@yahoo.com",
+      "isStaff": true
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "userId": 1,
+      "loyaltyNumber": 46096
+    },
+    {
+      "id": 2,
+      "userId": 4,
+      "loyaltyNumber": 87335
+    },
+    {
+      "id": 3,
+      "userId": 5,
+      "loyaltyNumber": 78662
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "userId": 2,
+      "startDate": "Tue Jul 05 2022 16:09:20 GMT-0500 (Central Daylight Time)",
+      "payRate": 16,
+      "storeId": 2
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "startDate": "Sun Dec 12 2021 19:47:34 GMT-0600 (Central Standard Time)",
+      "payRate": 14.5,
+      "storeId": 1
+    },
+    {
+      "id": 3,
+      "userId": 6,
+      "startDate": "Sun Nov 07 2021 21:30:49 GMT-0600 (Central Standard Time)",
+      "payRate": 14.8,
+      "storeId": 2
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "73103 Mackenzie Forest, Pagacchester, TN 80320",
+      "squareFootage": 788
+    },
+    {
+      "id": 2,
+      "address": "895 Samir Knolls, New Jesus, IN 60704",
+      "squareFootage": 487
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Silly Sausages",
+      "productTypeId": 2,
+      "price": 0.99
+    },
+    {
+      "id": 2,
+      "name": "Nerds",
+      "productTypeId": 3,
+      "price": 0.89
+    },
+    {
+      "id": 3,
+      "name": "Whoppers",
+      "productTypeId": 1,
+      "price": 1.49
+    },
+    {
+      "id": 4,
+      "name": "Twizzlers",
+      "productTypeId": 2,
+      "price": 2.19
+    },
+    {
+      "id": 5,
+      "name": "Hershey's Kisses",
+      "productTypeId": 1,
+      "price": 2.5
+    },
+    {
+      "id": 6,
+      "name": "Jawbreakers",
+      "productTypeId": 3,
+      "price": 1.19
+    },
+    {
+      "id": 7,
+      "name": "Bubblelicious",
+      "productTypeId": 4,
+      "price": 1.99
+    },
+    {
+      "name": "Kit-Kat Bar",
+      "productTypeId": 1,
+      "price": 1.09,
+      "id": 8
+    },
+    {
+      "name": "Gummy Bears",
+      "productTypeId": 2,
+      "price": 1.99,
+      "id": 9
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "productType": "Chocolate"
+    },
+    {
+      "id": 2,
+      "productType": "Gummies"
+    },
+    {
+      "id": 3,
+      "productType": "Hard Candies"
+    },
+    {
+      "id": 4,
+      "productType": "Bubble Gum"
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "locationProductId": 1,
+      "quantity": 3
+    }
+  ],
+  "locationProducts": [
+    {
+      "id": 1,
+      "locationId": 1,
+      "productId": 1
+    },
+    {
+      "id": 2,
+      "locationId": 1,
+      "productId": 3
+    },
+    {
+      "id": 3,
+      "locationId": 1,
+      "productId": 4
+    },
+    {
+      "id": 4,
+      "locationId": 1,
+      "productId": 7
+    },
+    {
+      "id": 5,
+      "locationId": 2,
+      "productId": 2
+    },
+    {
+      "id": 6,
+      "locationId": 2,
+      "productId": 3
+    },
+    {
+      "id": 7,
+      "locationId": 2,
+      "productId": 5
+    },
+    {
+      "id": 8,
+      "locationId": 2,
+      "productId": 6
+    }
+  ]
 }
