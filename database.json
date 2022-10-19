@@ -35,6 +35,18 @@
       "name": "Jaleel Powlowski",
       "email": "Walter48@yahoo.com",
       "isStaff": true
+    },
+    {
+      "name": "Walter White",
+      "email": "blueskydaddy@yahoo.com",
+      "isStaff": true,
+      "id": 7
+    },
+    {
+      "name": "Danny Trejo",
+      "email": "stillmachete@email.com",
+      "isStaff": true,
+      "id": 8
     }
   ],
   "customers": [
@@ -75,6 +87,20 @@
       "startDate": "Sun Nov 07 2021 21:30:49 GMT-0600 (Central Standard Time)",
       "payRate": 14.8,
       "storeId": 2
+    },
+    {
+      "userId": 7,
+      "startDate": "2022-10-19T15:27:52.968Z",
+      "payRate": 17.5,
+      "storeId": 1,
+      "id": 4
+    },
+    {
+      "userId": 8,
+      "startDate": "2022-10-19T15:38:31.111Z",
+      "payRate": 17,
+      "storeId": 1,
+      "id": 5
     }
   ],
   "stores": [
